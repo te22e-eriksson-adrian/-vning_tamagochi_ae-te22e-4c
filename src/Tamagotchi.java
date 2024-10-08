@@ -5,30 +5,32 @@ public class Tamagotchi {
     // Attributes
     private int hunger;
     private int boredome;
-    private boolean isAlive;
+    private boolean isAlive = true;
     private Random generator = new Random();
     public String name;
     private ArrayList<Tamagotchi> myTamagotchi = new ArrayList<>();
-}
-// Methods
-public static void feed(){
-    //jj
-}
-public static void speak(){
-    //jj
-}
-public static void teach(String word){
-    //jj
-}
-public static void tick(){
-    //jj
-}
-public static void printStats(){
-    //jj
-}
-public static boolean getAlive(){
-    //jj
-}
-private static void reduceBoredome(){
-    //jj
+
+    // Methods
+    public void feed(){
+        //jj
+    }
+    public void speak(){
+        //jj
+    }
+    public void teach(String word){
+        //jj
+    }
+    public void tick(){
+        //jj
+    }
+    public void printStats(){
+        //jj
+    }
+    public boolean getAlive(){
+        return isAlive;
+        //jj
+    }
+    private void reduceBoredome(){
+        //jj
+    }
 }
